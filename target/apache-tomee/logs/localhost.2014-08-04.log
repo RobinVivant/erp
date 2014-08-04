@@ -1,0 +1,6 @@
+Aug 04, 2014 10:48:58 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+Aug 04, 2014 10:49:02 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'mvc-dispatcher'
+Aug 04, 2014 10:52:43 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'mvc-dispatcher'

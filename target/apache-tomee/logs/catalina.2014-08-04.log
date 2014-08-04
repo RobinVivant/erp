@@ -1,0 +1,168 @@
+Aug 04, 2014 10:48:49 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 04, 2014 10:48:49 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Aug 04, 2014 10:48:49 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 04, 2014 10:48:49 AM org.apache.openejb.util.OptionsLog info
+INFO: Using 'tomee.remote.support=true'
+Aug 04, 2014 10:48:50 AM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+Aug 04, 2014 10:48:50 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Aug 04, 2014 10:48:50 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://openejb.apache.org/
+Aug 04, 2014 10:48:50 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Mon Aug 04 10:48:50 CEST 2014
+Aug 04, 2014 10:48:50 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+Aug 04, 2014 10:48:50 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 4.6.0.2
+Aug 04, 2014 10:48:50 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20140506
+Aug 04, 2014 10:48:50 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 03:09
+Aug 04, 2014 10:48:50 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+Aug 04, 2014 10:48:50 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = /home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee
+Aug 04, 2014 10:48:50 AM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = /home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee
+Aug 04, 2014 10:48:50 AM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@7a4ccb53
+Aug 04, 2014 10:48:50 AM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+Aug 04, 2014 10:48:50 AM org.apache.openejb.config.ConfigurationFactory init
+INFO: openejb configuration file is '/home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee/conf/tomee.xml'
+Aug 04, 2014 10:48:50 AM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+Aug 04, 2014 10:48:50 AM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+Aug 04, 2014 10:48:50 AM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=false'
+Aug 04, 2014 10:48:50 AM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.deployments.classpath=false'
+Aug 04, 2014 10:48:50 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+Aug 04, 2014 10:48:50 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+Aug 04, 2014 10:48:56 AM org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf)
+Aug 04, 2014 10:48:57 AM org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf-rs)
+Aug 04, 2014 10:48:57 AM org.apache.openejb.server.SimpleServiceManager start
+INFO:   ** Bound Services **
+Aug 04, 2014 10:48:57 AM org.apache.openejb.server.SimpleServiceManager printRow
+INFO:   NAME                 IP              PORT  
+Aug 04, 2014 10:48:57 AM org.apache.openejb.server.SimpleServiceManager start
+INFO: -------
+Aug 04, 2014 10:48:57 AM org.apache.openejb.server.SimpleServiceManager start
+INFO: Ready!
+Aug 04, 2014 10:48:57 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 8440 ms
+Aug 04, 2014 10:48:57 AM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFO: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+Aug 04, 2014 10:48:57 AM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=UserDatabase)
+Aug 04, 2014 10:48:57 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 04, 2014 10:48:57 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.53 (1.6.0.2)
+Aug 04, 2014 10:48:57 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee/webapps/ERP-CORE.war
+Aug 04, 2014 10:48:57 AM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /ERP-CORE
+Aug 04, 2014 10:48:57 AM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee/webapps/ERP-CORE.war
+Aug 04, 2014 10:48:57 AM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee/webapps/ERP-CORE
+Aug 04, 2014 10:48:57 AM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+Aug 04, 2014 10:48:57 AM org.apache.catalina.loader.WebappClassLoader validateJarFile
+INFO: validateJarFile(/home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee/webapps/ERP-CORE/WEB-INF/lib/javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Aug 04, 2014 10:48:57 AM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee/webapps/ERP-CORE
+Aug 04, 2014 10:48:57 AM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee/webapps/ERP-CORE" loaded.
+Aug 04, 2014 10:48:57 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee/webapps/ERP-CORE
+Aug 04, 2014 10:48:57 AM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@7a4ccb53
+Aug 04, 2014 10:48:57 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+Aug 04, 2014 10:48:57 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+Aug 04, 2014 10:48:57 AM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+Aug 04, 2014 10:48:57 AM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+Aug 04, 2014 10:48:57 AM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 83 ms.
+Aug 04, 2014 10:48:57 AM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee/webapps/ERP-CORE)
+Aug 04, 2014 10:48:58 AM org.apache.myfaces.ee6.MyFacesContainerInitializer onStartup
+INFO: Added FacesServlet with mappings=[/faces/*, *.jsf, *.faces]
+Aug 04, 2014 10:48:58 AM org.apache.tomee.myfaces.TomEEMyFacesContainerInitializer addListener
+INFO: Installing <listener>org.apache.myfaces.webapp.StartupServletContextListener</listener>
+Aug 04, 2014 10:48:58 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getStandardFacesConfig
+INFO: Reading standard config META-INF/standard-faces-config.xml
+Aug 04, 2014 10:48:58 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee/lib/openwebbeans-el22-1.2.1.jar!/META-INF/faces-config.xml
+Aug 04, 2014 10:48:58 AM org.apache.myfaces.config.DefaultFacesConfigurationProvider getClassloaderFacesConfig
+INFO: Reading config : jar:file:/home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee/lib/openwebbeans-jsf-1.2.1.jar!/META-INF/faces-config.xml
+Aug 04, 2014 10:48:58 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-api' was found in version '2.1.13' from path 'file:/home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee/lib/myfaces-api-2.1.13.jar'
+Aug 04, 2014 10:48:58 AM org.apache.myfaces.config.LogMetaInfUtils logArtifact
+INFO: Artifact 'myfaces-impl' was found in version '2.1.13' from path 'file:/home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee/lib/myfaces-impl-2.1.13.jar'
+Aug 04, 2014 10:48:58 AM org.apache.myfaces.util.ExternalSpecifications isBeanValidationAvailable
+INFO: MyFaces Bean Validation support enabled
+Aug 04, 2014 10:48:58 AM org.apache.myfaces.application.ApplicationImpl getProjectStage
+INFO: Couldn't discover the current project stage, using Production
+Aug 04, 2014 10:48:58 AM org.apache.myfaces.config.FacesConfigurator handleSerialFactory
+INFO: Serialization provider : class org.apache.myfaces.shared_impl.util.serial.DefaultSerialFactory
+Aug 04, 2014 10:48:58 AM org.apache.myfaces.config.annotation.DefaultLifecycleProviderFactory getLifecycleProvider
+INFO: Using LifecycleProvider org.apache.myfaces.config.annotation.Tomcat7AnnotationLifecycleProvider
+Aug 04, 2014 10:49:02 AM org.apache.myfaces.webapp.AbstractFacesInitializer initFaces
+INFO: ServletContext initialized.
+Aug 04, 2014 10:49:02 AM org.apache.myfaces.util.ExternalSpecifications isUnifiedELAvailable
+INFO: MyFaces Unified EL support enabled
+Aug 04, 2014 10:49:02 AM org.springframework.web.servlet.DispatcherServlet initServletBean
+INFO: FrameworkServlet 'mvc-dispatcher': initialization started
+Aug 04, 2014 10:49:02 AM org.springframework.web.context.support.XmlWebApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Mon Aug 04 10:49:02 CEST 2014]; root of context hierarchy
+Aug 04, 2014 10:49:02 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from ServletContext resource [/WEB-INF/mvc-dispatcher-servlet.xml]
+Aug 04, 2014 10:49:02 AM org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor <init>
+INFO: JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+Aug 04, 2014 10:49:03 AM org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping registerHandler
+INFO: Root mapping to handler 'helloController'
+Aug 04, 2014 10:49:03 AM org.springframework.web.servlet.DispatcherServlet initServletBean
+INFO: FrameworkServlet 'mvc-dispatcher': initialization completed in 667 ms
+Aug 04, 2014 10:49:03 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Aug 04, 2014 10:49:03 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 04, 2014 10:49:03 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6140 ms
+Aug 04, 2014 10:52:43 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Aug 04, 2014 10:52:43 AM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Aug 04, 2014 10:52:43 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Aug 04, 2014 10:52:43 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Aug 04, 2014 10:52:43 AM org.springframework.web.context.support.XmlWebApplicationContext doClose
+INFO: Closing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Mon Aug 04 10:49:02 CEST 2014]; root of context hierarchy
+Aug 04, 2014 10:52:43 AM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /home/robin/Documents/REMEC/ERP-CORE/target/apache-tomee/webapps/ERP-CORE
+Aug 04, 2014 10:52:43 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Aug 04, 2014 10:52:43 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Aug 04, 2014 10:52:43 AM org.apache.openejb.server.SimpleServiceManager stop
+INFO: Stopping server services
+Aug 04, 2014 10:52:43 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+Aug 04, 2014 10:52:43 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
