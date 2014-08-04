@@ -26,6 +26,7 @@
     <build>
         <plugins>
             <plugin>
+<<<<<<< HEAD
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>1.1.4.RELEASE</version>
@@ -36,6 +37,33 @@
                         </goals>
                     </execution>
                 </executions>
+=======
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.17</version>
+                <configuration>
+                    <includes>
+                        <include>**/*Tests.java</include>
+                    </includes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.openejb.maven</groupId>
+                <artifactId>tomee-maven-plugin</artifactId>
+                <version>1.6.0.2</version>
+                <configuration>
+                    <tomeeVersion>1.6.0.2</tomeeVersion>
+                    <tomeeClassifier>plus</tomeeClassifier>
+                </configuration>
+>>>>>>> a658394b0ab0b146a1795c2c4d303308f1b5bb43
             </plugin>
         </plugins>
     </build>
